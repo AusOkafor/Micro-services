@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+
+bin/
+dist/
+tmp/
+
+coverage/
+*.out
+
+.DS_Store
+
+# Backend-only repo (ignore non-backend folders/files)
+frontend/
+docs/
+examples/
+Infra.md
+
+# Frontend artifacts (in case nested ignores are needed)
+**/node_modules/
+**/dist/
+
+# Local DBs / dev artifacts
+**/*.sqlite
+**/*.sqlite-journal
+
+

@@ -1,0 +1,16 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "7596dbec39c48a2007674fa71e155f7f"
+name = "micro-service"
+application_url = "https://example.com"
+embedded = true
+
+[webhooks]
+api_version = "2026-04"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_orders,write_draft_orders,write_products"
+
+[auth]
+redirect_urls = [ "https://example.com/api/auth" ]
